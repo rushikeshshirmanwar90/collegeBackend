@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wiselists",
+  "info": {
+    "singularName": "wiselist",
+    "pluralName": "wiselists",
+    "displayName": "wiselist"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "company": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::company.company"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "backlogs_subjects",
+  "info": {
+    "singularName": "backlogs-subject",
+    "pluralName": "backlogs-subjects",
+    "displayName": "backlogs-subject"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subject_name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
